@@ -221,3 +221,31 @@ nav {
     text-align: center;
     margin-bottom: 113px;
 }
+/* contarct style */
+.contact{
+    display: flex;
+    gap: 200px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .resume-hader{
+  text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 0 18px 30px ;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact-descirption{
+    margin-bottom: 30px;
+    font-size: 16px;
+    color:  #474747;
+}
